@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assign.css">
+</head>
+<body>
+     <h1 class="mainTitle"> Smart Event Dashboard</h1>
+    <div class="container">
+      <div class="eventForm">
+        <h2>Add New Event</h2>
+        <form id="form">
+            <label for="eventTitle">Event Title</label>
+            <input type="text" id="eventTitle"><br>
+            <label for="eventDate">Event Date</label>
+            <input type="date" id="eventDate"><br>
+            <label for="category">Category</label>
+            <select id ="category">
+                <option value="conference">Conference</option>
+                <option value="Workshop">Workshop</option>
+                <option value="Meetup">Meetup</option>
+                <option value="Webinar">Webinar</option>
+                <option value="Social">Social</option>
+            </select><br>
+            <label for="description">Description</label>
+            <textarea id="description"></textarea><br>
+            <button type="submit">Add Event</button>
+        </form>
+      </div>
+      <div class="events">
+         <h2>My Events</h2>
+         <button type="button" id="clearBtn">Clear All Events</button>
+         <button type="button" id="sampleBtn">Add cards</button>
+
+         <div class="cards"></div>
+        </div>
+    </div>
+    <div class="dom">
+            <h2>DOM Manipulation Demo</h2>
+            <p id="demoHTML"></p> 
+            <p id="demoText"></p> 
+            <p id="demoContent"></p>
+            You pressed: <div class="key"></div>
+    </div>
+
+    <script src="./java.js"></script>
+</body>
+</html>

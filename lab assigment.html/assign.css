@@ -1,0 +1,92 @@
+.card{
+    background-color: rgb(228, 214, 234);
+    width: 90%;
+    padding: 10px;
+    border-radius: 8px;
+    margin-top: 10px;
+    position: relative;
+}
+
+.deleteCard{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background-color: red;
+    color: white;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+body{
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #7ea6e0, #8fd3c9);
+}
+
+.mainTitle{
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+}
+
+.container{
+    display: flex;
+    gap: 30px;
+    padding: 30px;
+    justify-content: center;
+}
+
+
+.eventForm, .events{
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 350px;
+}
+
+.eventForm label{
+    display: block;
+    margin-top: 10px;
+}
+
+.eventForm input,
+.eventForm select,
+.eventForm textarea{
+    width: 100%;
+    padding: 6px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.dom{
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 750px;      
+    margin: 20px auto;  
+}
+
+
+button{
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    background: linear-gradient(to right,#5a67d8,#805ad5);
+    color: white;
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+.cards{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
