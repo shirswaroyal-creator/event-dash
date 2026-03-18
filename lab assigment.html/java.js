@@ -54,11 +54,3 @@ document.addEventListener('keydown',(event)=>{
 
 const demoText = "<strong>Bold Text</strong> with spaces"
 
-document.getElementById("demoHTML").innerHTML =
-    "innerHTML: " + demoText
-
-document.getElementById("demoText").innerText =
-    "innerText: " + demoText
-
-document.getElementById("demoContent").textContent =
-    "textContent: " + demoText
